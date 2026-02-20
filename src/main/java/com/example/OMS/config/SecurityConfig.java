@@ -87,7 +87,7 @@ public CorsConfigurationSource corsConfigurationSource() {
     // Avoid using "*" or "**" when allowCredentials is true
     configuration.setAllowedOrigins(Arrays.asList(
         "http://localhost:5173", 
-        "https://your-frontend-site.vercel.app"
+        "https://oms-web-jeu6.onrender.com/"
     ));
     
     // 2. Explicitly list methods
