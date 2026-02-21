@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Server
-        run: curl https://your-oms-backend-url.onrender.com/actuator/health
+        run: curl https://oms-backend-pyq9.onrender.com/actuator/health
