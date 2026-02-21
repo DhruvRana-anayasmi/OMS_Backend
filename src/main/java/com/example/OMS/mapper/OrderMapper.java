@@ -1,11 +1,11 @@
 package com.example.OMS.mapper;
 
+import java.util.List;
+
 import com.example.OMS.dto.OrderItemResponseDto;
 import com.example.OMS.dto.OrderResponseDto;
 import com.example.OMS.entity.Order;
 import com.example.OMS.entity.OrderItem;
-
-import java.util.List;
 
 public class OrderMapper {
 
@@ -19,6 +19,7 @@ public class OrderMapper {
 
         return new OrderResponseDto(
                 order.getOrderId(),
+                order.getCreatedAt(),
                 order.getStatus(),
                 items
         );
