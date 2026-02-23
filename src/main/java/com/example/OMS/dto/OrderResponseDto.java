@@ -19,7 +19,7 @@ public class OrderResponseDto {
         this.orderId = orderId;
         this.status = status;
         this.items = items;
-        this.createdAt = LocalDateTime.now();
+        this.createdAt = createdAt;
     }
 
 
